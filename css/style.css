@@ -19,7 +19,7 @@ h1,h2{
     display: inline;
 }
 .mkr {
-    margin-left: 25em;
+    margin-left: 15em;
 }
 article {
     width: 50vw;
@@ -105,7 +105,7 @@ strong:hover, #tour:hover, .mkr:hover, #Chess:hover , #chs:hover {
 
 
 
-@media screen and ( max-width: 425px) {
+@media screen and ( max-width: 375px) {
     * {
         box-sizing: border-box;
     }
@@ -117,7 +117,7 @@ strong:hover, #tour:hover, .mkr:hover, #Chess:hover , #chs:hover {
         margin-bottom: 1em;
     }
     .mkr {
-        margin-left: 10em;
+        margin-left: 7em;
     }
     article {
         width: 100vw;
