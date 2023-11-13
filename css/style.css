@@ -2,8 +2,49 @@
     box-sizing: border-box;
 }
 body {
+    background-color: hsl(0, 0%, 100%);
     font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+header {
+    margin-right: 42%;
 }
 h1,h2,p{
     display: inline;
+}
+#Mark,#angela,#Jacob {
+    display: flex;
+    padding: 1em;
+    background-color: hsl(205, 33%, 90%);
+    border-radius: 1em;
+}
+.img {
+    display: inline;
+}
+p {
+    font-size: 0.9em;
+    font-weight: 500;
+    margin: 1em 0;
+    vertical-align: top;
+
+}
+#dot {
+    padding: 1px;
+    border-radius: 50%;
+    background-color: hsl(1, 90%, 64%);
+    
+    margin: 1px;
+
+}
+.msg {
+    display: inline;
+    margin: 0 0 0 6em;
+    width: 100%;
+    border: 1px solid hsl(211, 68%, 94%);
 }
